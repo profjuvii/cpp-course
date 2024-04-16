@@ -1,50 +1,51 @@
 #include <iostream>
+#include <string>
 
 
 int main(int argc, char** argv){
-    // string name = "string";
+    // std::string name = "string";
     std::string person_name = "David";
     std::cout << "Name:\t" << person_name << std::endl;
 
-    // length method (or size method)
+    // access elements by index
+    char character = person_name[0];
+    std::cout << "Character:\t" << character << std::endl;
+
+    // length() method (or size() method)
     int length = person_name.length(); // person_name.size()
     std::cout << "Length of the string:\t" << length << std::endl;
 
-    // append method
+    // append() method
     person_name.append(" Swan");
     std::cout << "Full name:\t" << person_name << std::endl;
 
-    // insert method
+    // insert() method
     person_name.insert(0, "Robin ");
     std::cout << "Full name:\t" << person_name << std::endl;
 
-    // erase method
+    // erase() method
     person_name.erase(0, 6); // remove "Robin "
     std::cout << "Full name:\t" << person_name << std::endl;
 
-    // substr method
+    // substr() method
     std::string first_name = person_name.substr(0, 5); // take "David"
     std::cout << "First name:\t" << first_name << std::endl;
 
-    // find method
+    // find() method
     size_t pos = person_name.find("Alex");
     std::cout << "Alex exist on:\t" << pos << std::endl;
     std::cout << "David exist on:\t" << person_name.find("Swan") << std::endl;
 
-    // replace method
+    // replace() method
     person_name.replace(6, 7, "Doreen");
     std::cout << "Full name:\t" << person_name << std::endl;
 
-    // empty method
+    // empty() method
     bool is_empty = person_name.empty();
     std::cout << "Is empty:\t" << is_empty << std::endl;
 
-    // pop back method 
+    // pop_back() method 
     person_name.pop_back();
-    std::cout << "Full name:\t" << person_name << std::endl;
-
-    // access strings
-    person_name[4] = 'i';
     std::cout << "Full name:\t" << person_name << std::endl;
 
     // memory sizes
