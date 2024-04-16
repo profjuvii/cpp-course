@@ -12,7 +12,8 @@ Sure, here's the updated table with overloaded operators:
 | 2 | [Function Enhancements and Overloading](projects/pj02) | Explore enhancements in function declarations and calls, as well as function overloading.        |
 | 3 | [Dynamic Memory Allocation](projects/pj03)| Learn about dynamic memory allocation methods in C++ and their proper usage.                     |
 | 4 | [Templates](projects/pj04)                | Explore the versatility of templates in C++ programming for creating generic solutions.          |
-| 5 | [Operator Overloading](projects/pj05)     | Dive into the concept of operator overloading in C++ and it's applications.                       |
+| 5 | [Operator Overloading](projects/pj05)     | Dive into the concept of operator overloading in C++ and it's applications.                      |
+| 6 | [Classes](projects/pj06)                  | Understand the fundamentals of classes in C++ for creating objects with attributes and methods.  |
 
 ## Conclusion
 By the end of this course, you will have gained a comprehensive understanding of the C++ programming language, empowering you to create efficient and resilient software solutions.
