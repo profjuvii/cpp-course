@@ -4,8 +4,6 @@ Welcome to the C++ programming language course! This repository serves as a cont
 ## Schedule of topics
 Below is the schedule of topics covered in this course:
 
-Sure, here's the updated table with overloaded operators:
-
 |   | Topic                                     | Description                                                                                      |
 |:-:|-------------------------------------------|--------------------------------------------------------------------------------------------------|
 | 1 | [Foreach Loop and String Manipulation](projects/pj01) | Learn to use the foreach loop to iterate over container elements and manipulate strings in C++. |
