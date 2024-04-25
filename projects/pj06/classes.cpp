@@ -38,7 +38,7 @@ public:
 
     // destructor for the Employee class
     ~Employee(){
-        cout << "Object was destroyed." << endl;  
+        cout << "Object " << id << " was destroyed." << endl;  
     }
 
     // getter methods to retrieve private member variables
@@ -74,24 +74,31 @@ public:
 };
 
 
+void show_info(const Employee emp){
+    cout << "ID: " << emp.get_id()
+        << "\n\tSalary: " << emp.get_salary()
+        << "\n\tName: "<< emp.get_name() 
+        << "\n\tEmail: "<< emp.get_email()
+        << "\n\tIs Active: " << emp.get_active() << endl;
+}
+
+
 int main(int argc, char** argv){
-    // creating an Employee object and initializing it with provided values
-    // Employee emp1 = Employee(1, 900, "John", "john01@gmail.com");
-    Employee emp1(1, 900, "John");
+    // creating an Employee objects and initializing it with provided values
+    Employee emp1 = Employee(1, 900, "John", "john01@gmail.com");   // copy initialization
+    Employee emp2(2, 420, "Gabriel");                               // direct initialization
 
-    // print employee information
-    cout << "ID: " << emp1.get_id()
-        << "\n\tSalary: " << emp1.get_salary()
-        << "\n\tName: "<< emp1.get_name() 
-        << "\n\tEmail: "<< emp1.get_email()
-        << "\n\tIs Active: " << emp1.get_active() << endl;
-
+    // print emps information
+    show_info(emp1);
+    show_info(emp2);
+    
     // increasing employee's salary by 10 units
     emp1.increase_salary(10.0f);
-    cout << "Salary: " << emp1.get_salary() << endl;
+    cout << "ID: " << emp1.get_id() << "\n\tSalary: " << emp1.get_salary() << endl;
 
-    // deactivation of the employee
+    // deactivation of the employees
     emp1.deactivation();
+    emp2.deactivation();
 
     return 0;
 }
