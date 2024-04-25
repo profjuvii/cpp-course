@@ -51,7 +51,7 @@ int main(int argc, char** argv){
     bird.fly();
     cout << "Age: " << bird.get_age() << endl;
 
-    Cat cat("Lory", 2.5f);
+    Cat cat("Lory", 2.6f);
     cat.purr();
     cout << "Age: " << cat.get_age() << endl;
 
