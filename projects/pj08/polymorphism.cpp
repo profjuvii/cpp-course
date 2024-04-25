@@ -33,7 +33,7 @@ public:
 };
 
 
-void drawShape(const Shape& shape) {
+void drawShape(const Shape& shape){
     shape.draw(); // polymorphic call
 }
 
