@@ -12,7 +12,8 @@ Below is the schedule of topics covered in this course:
 | 4 | [Templates](projects/pj04)                             | Discover the versatility of templates in C++ programming, enabling the creation of generic solutions.          |
 | 5 | [Operator Overloading](projects/pj05)                  | Delve into the concept of operator overloading in C++ and its practical applications.                       |
 | 6 | [Classes](projects/pj06)                               | Grasp the fundamental concepts of classes in C++ to create objects with attributes and methods.  |
-| 7 | [Inheritance](projects/pj07)          | Explore inheritance in C++ to construct hierarchical class structures and achieve code reusability. |
+| 7 | [Inheritance](projects/pj07)                           | Explore inheritance in C++ to construct hierarchical class structures and achieve code reusability. |
+| 8 | [Polymorphism](projects/pj08)                          | Learn about polymorphism in C++, including virtual functions and abstract classes, to enable dynamic behavior based on object types. |
 
 ## Conclusion
 By the end of this course, you will have gained a comprehensive understanding of the C++ programming language, empowering you to create efficient and resilient software solutions.
