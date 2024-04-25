@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdarg> // for ellipsis '...'
 
 /*  directive that tells the compiler to use the entire std
     namespace, which includes standard C++ library functionsand
@@ -27,6 +28,19 @@ inline int double_increment(int& x){
 }
 
 
+// function to calculate the average of variable arguments
+double average(int count, ...){
+    va_list args;
+    va_start(args, count);
+    double sum = 0;
+    for(int i = 0; i < count; ++i){
+        sum += va_arg(args, int);
+    }
+    va_end(args);
+    return sum / count;
+}
+
+
 int main(int argc, char** argv){
     greet();        // without argument
     greet("Jack");  // with an argument
@@ -42,6 +56,10 @@ int main(int argc, char** argv){
     // double increment
     double_increment(num1);
     cout << num1 << endl;
+
+    // calculating average of variable arguments
+    cout << "Average of 3, 4, and 5: " << average(3, 3, 4, 5) << endl;
+    cout << "Average of 2, 3, 4, and 5: " << average(4, 2, 3, 4, 5) << endl;
 
     return 0;
 }
