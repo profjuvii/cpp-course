@@ -3,58 +3,57 @@
 
 using namespace std;
 
-/*  inheritance allows the inheritance of 
-    attributes and methods from one class to another
-*/
 
-class Person{
+// base class
+class Animal{
 protected:
-    // members
     string name;
-    int age;
+    float age;
 
 public:
-    // constructor
-    Person(const string& new_name = "", const int new_age = 0)
-        : name(new_name), age(new_age) {
-        cout << "Person " << name << " was created." << endl;
-    }
+    // constructor for base class Animal
+    Animal(const string& new_name, float new_age) : name(new_name), age(new_age) {}
 
     // getters
-    string get_name() const { return name; }
+    string get_name() { return name; }
+    float get_age() { return age; }
 };
 
 
-// inheriting from the Person class
-class User : public Person {
-private:
-    // members
-    int id;
-    double balance;
-    string bank_account;
-    bool is_active;
-
+// derived class Bird
+class Bird : public Animal{
 public:
-    // constructor
-    User(const string& name, int age, int new_id, const string& new_account)
-        : Person(name, age), id(new_id), balance(0.0), bank_account(new_account), is_active(true) {
-        cout << "User " << id << " was created." << endl;
+    // consructor for derived class Bird
+    Bird(const string& new_name, float new_age) : Animal(new_name, new_age) {}
+
+    // method specific to Bird
+    void fly() const {
+        cout << name << " is flying." << endl;
     }
+};
 
-    // getters
-    double get_balance(){ return balance; }
 
-    // method
-    void deposit(const double funds){
-        if(funds > 0)
-            balance += funds;
+// derived class Cat
+class Cat : public Animal{
+public:
+    // consructor for derived class Cat
+    Cat(const string& new_name, float new_age) : Animal(new_name, new_age) {}
+
+    // method specific to Cat
+    void purr() const {
+        cout << name << " is purring." << endl;
     }
 };
 
 
 int main(int argc, char** argv){
-    User user1("John", 21, 1, "1111");
-    user1.deposit(400);
-    cout << "Mr/Mrs "<< user1.get_name() << " your balance: " << user1.get_balance() << '$' << endl;
+    Bird bird("Canon", 2.0f);
+    bird.fly();
+    cout << "Age: " << bird.get_age() << endl;
+
+    Cat cat("Lory", 2.5f);
+    cat.purr();
+    cout << "Age: " << cat.get_age() << endl;
+
     return 0;
 }
