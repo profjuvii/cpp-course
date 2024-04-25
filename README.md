@@ -6,7 +6,7 @@ Below is the schedule of topics covered in this course:
 
 |   | Topic                                                  | Description                                                                                      |
 |:-:|--------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| 1 | [Arrays, Vectors, Strings, and Foreach Loop](projects/pj01) | Learn to work with arrays, vectors, strings, and utilize the foreach loop in C++.               |
+| 1 | [Arrays, Vectors, Strings](projects/pj01) | Learn to work with arrays, vectors and strings.               |
 | 2 | [Function Enhancements and Overloading](projects/pj02) | Explore enhancements in function declarations and calls, as well as function overloading.        |
 | 3 | [Dynamic Memory Allocation](projects/pj03)             | Learn about dynamic memory allocation methods in C++ and their proper usage.                     |
 | 4 | [Templates](projects/pj04)                             | Explore the versatility of templates in C++ programming for creating generic solutions.          |
