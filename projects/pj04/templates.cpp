@@ -28,7 +28,7 @@ template<typename T, typename... Args> void print(T a, Args... args){ // templat
 // }
 
 
-int main(int argc, char** argv){
+int main(){
     print(100); // print a single integer
     print("Hello World!"); // print a single string
     print("Balance:", 1000.0f, '$'); // print multiple arguments with a label

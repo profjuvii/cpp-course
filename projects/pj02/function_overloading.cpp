@@ -39,7 +39,7 @@ inline double add(double a, double b){
 }
 
 
-int main(int argc, char** argv){
+int main(){
     // call the print functions
     print(10);
     print(10, 20);

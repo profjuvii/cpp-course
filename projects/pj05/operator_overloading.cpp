@@ -55,7 +55,7 @@ ostream& operator<<(ostream& out, complex cplx){
 }
 
 
-int main(int argc, char** argv){
+int main(){
     // initialization of two complex numbers
     complex cplx1 = { .real = 10, .imag = -1 };
     complex cplx2 = { .real = 4, .imag = 0 };

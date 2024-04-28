@@ -10,7 +10,7 @@ void print_array(std::array<int, 10> nums){
 }
 
 
-int main(int argc, char** argv){
+int main(){
     // std::array<type, size> name = {value1, value2, value3, ...}; (fixed array)
     std::array<int, 10> numbers = {71, 45, -2, 343, 52, 90, -87, 37, -111, 18};
 

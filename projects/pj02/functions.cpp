@@ -41,7 +41,7 @@ double average(int count, ...){
 }
 
 
-int main(int argc, char** argv){
+int main(){
     greet();        // without argument
     greet("Jack");  // with an argument
 

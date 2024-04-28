@@ -10,7 +10,7 @@ void print_vector(std::vector<int> vec){
 }
 
 
-int main(int argc, char** argv){
+int main(){
     // std::vector<type> name = {value1, value2, value3, ...}; (dynamic array)
     std::vector<int> vec {71, 45, -2, 343, 52, 90, -87, 37, -111, 18}; // uniform-initialization
 

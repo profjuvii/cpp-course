@@ -38,7 +38,7 @@ void drawShape(const Shape& shape){
 }
 
 
-int main(int argc, char** argv){
+int main(){
     Circle circle;
     drawShape(circle);
 

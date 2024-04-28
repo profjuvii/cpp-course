@@ -46,7 +46,7 @@ public:
 };
 
 
-int main(int argc, char** argv){
+int main(){
     Bird bird("Canon", 2.0f);
     bird.fly();
     cout << "Age: " << bird.get_age() << endl;

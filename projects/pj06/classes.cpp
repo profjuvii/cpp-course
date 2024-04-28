@@ -83,7 +83,7 @@ void show_info(const Employee emp){
 }
 
 
-int main(int argc, char** argv){
+int main(){
     // creating an Employee objects and initializing it with provided values
     Employee emp1 = Employee(1, 900, "John", "john01@gmail.com");   // copy initialization
     Employee emp2(2, 420, "Gabriel");                               // direct initialization

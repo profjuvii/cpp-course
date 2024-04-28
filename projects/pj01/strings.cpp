@@ -2,7 +2,7 @@
 #include <string>
 
 
-int main(int argc, char** argv){
+int main(){
     // std::string name = "string";
     std::string person_name = "David";
     std::cout << "Name:\t" << person_name << std::endl;
