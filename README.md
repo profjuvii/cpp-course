@@ -14,6 +14,8 @@ Below is the schedule of topics covered in this course:
 | 6 | [Classes](projects/pj06)                               | Grasp the fundamental concepts of classes in C++ to create objects with attributes and methods.  |
 | 7 | [Inheritance](projects/pj07)                           | Explore inheritance in C++ to construct hierarchical class structures and achieve code reusability. |
 | 8 | [Polymorphism](projects/pj08)                          | Learn about polymorphism in C++, including virtual functions and abstract classes, to enable dynamic behavior based on object types. |
+| 9 | [Files](projects/pj09)                                 | Dive into file handling in C++ to read from and write to files, mastering file streams and manipulation. |
+| 10 | [Exceptions](projects/pj10)                           | Explore exception handling in C++ to gracefully manage errors and unexpected situations in your code. |
 
 ## Conclusion
 By the end of this course, you will have gained a comprehensive understanding of the C++ programming language, empowering you to create efficient and resilient software solutions.
