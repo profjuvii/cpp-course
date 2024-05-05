@@ -4,18 +4,18 @@ Welcome to the C++ programming language course! This repository serves as a cont
 ## Schedule of topics
 Below is the schedule of topics covered in this course:
 
-|   | Topic                                                  | Description                                                                                      |
-|:-:|--------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| 1 | [Arrays, Vectors, Strings](projects/pj01) | Gain expertise in working with arrays, vectors, and strings in C++, mastering the manipulation of these core data structures.               |
-| 2 | [Function Enhancements and Overloading](projects/pj02) | Explore advancements in function declarations and calls, including function overloading.        |
-| 3 | [Dynamic Memory Allocation](projects/pj03)             | Learn about dynamic memory allocation techniques in C++ and their proper utilization.                     |
-| 4 | [Templates](projects/pj04)                             | Discover the versatility of templates in C++ programming, enabling the creation of generic solutions.          |
-| 5 | [Operator Overloading](projects/pj05)                  | Delve into the concept of operator overloading in C++ and its practical applications.                       |
-| 6 | [Classes](projects/pj06)                               | Grasp the fundamental concepts of classes in C++ to create objects with attributes and methods.  |
-| 7 | [Inheritance](projects/pj07)                           | Explore inheritance in C++ to construct hierarchical class structures and achieve code reusability. |
-| 8 | [Polymorphism](projects/pj08)                          | Learn about polymorphism in C++, including virtual functions and abstract classes, to enable dynamic behavior based on object types. |
-| 9 | [Files](projects/pj09)                                 | Dive into file handling in C++ to read from and write to files, mastering file streams and manipulation. |
-| 10 | [Exceptions](projects/pj10)                           | Explore exception handling in C++ to gracefully manage errors and unexpected situations in your code. |
+|   | Topic                                         | Description                                                                                   |
+|:-:|-----------------------------------------------|-----------------------------------------------------------------------------------------------|
+| 1 | [Arrays, Vectors, Strings](projects/pj01)   | Master manipulation of arrays, vectors, and strings, building proficiency in core data structures. |
+| 2 | [Function Enhancements and Overloading](projects/pj02) | Explore advanced function declarations and calls, including overloading, minimizing C++ usage.                   |
+| 3 | [Dynamic Memory Allocation](projects/pj03)  | Learn dynamic memory allocation techniques effectively in programming.                          |
+| 4 | [Templates](projects/pj04)                  | Delve into generic programming solutions with templates.                                       |
+| 5 | [Operator Overloading](projects/pj05)       | Discover practical applications of operator overloading, with reduced reliance on C++.                           |
+| 6 | [Classes](projects/pj06)                    | Grasp fundamental class concepts for creating objects with attributes and methods.      |
+| 7 | [Inheritance](projects/pj07)                | Construct hierarchical class structures for code reusability using inheritance.       |
+| 8 | [Polymorphism](projects/pj08)               | Learn about polymorphism, virtual functions, and abstract classes in dynamic programming. |
+| 9 | [Files](projects/pj09)                      | Dive into file handling for reading from and writing to files, mastering file streams.         |
+| 10 | [Exceptions](projects/pj10)                | Explore exception handling to manage errors and unexpected situations with less reliance on C++. |
 
 ## Conclusion
 By the end of this course, you will have gained a comprehensive understanding of the C++ programming language, empowering you to create efficient and resilient software solutions.
