@@ -47,7 +47,7 @@ int main(){
     std::cout << "Is empty:\t" << (is_empty ? "Yes" : "No") << std::endl;
 
     // sorting the array
-    std::array<int, 10> nums {71, 45, -2, 343, 52, 90, -87, 37, -111, 18};
+    std::array<int, 10> nums = {71, 45, -2, 343, 52, 90, -87, 37, -111, 18};
     std::sort(nums.begin(), nums.end());
     print_array(nums);
 
